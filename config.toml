@@ -1,0 +1,44 @@
+baseurl             = "https://chongg039.github.io/"
+builddrafts         = false
+canonifyurls        = true
+contentdir          = "content"
+languageCode        = "zh-cn"
+layoutdir           = "layouts"
+publishdir          = "public"
+author              = "coldriver"
+title               = "coldriver的技术博客"
+theme				= "cocoa"
+pygmentsuseclasses  = true
+disqusshortname     = "coldriver" # Comment out to disable Disqus.
+pluralizelisttitles = false
+googleAnalytics     = "UA-123-45"
+
+[permalinks]
+fixed = ":title/"
+blog  = "blog/:slug/"
+
+[params]
+author                 = "coldriver的技术博客"
+cachebuster            = true                          # add the current unix timestamp in query string for cache busting css assets
+dateform               = "Jan 2, 2006"
+dateformfull           = "Mon Jan 2 2006 15:04:05 MST"
+description            = "Don't panic"
+email                  = "chongg039@gmail.com"
+extracssfiles          = [ "/css/override.css" ]       # In your `static` directory, add/remove files as necessary.
+# faviconfile            = "img/leaf.ico"
+github                 = "//github.com/chongg039"
+highlightjs            = true
+lang                   = "en"
+# linkedin               = "//linkedin.com/in/you"
+noshowreadtime         = false                         # if true, don't show "<x> minutes read" in posts
+selfintro              = ""                            # appears in the site header when set to a non-empty string
+twitter                = "//twitter.com/uestcchongg"
+# highlightjslanguages = ["go"]                        # additional languages not included in the "common" set
+
+# avatar                 = "img/profile.png" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
+# gravatar             = ""                # do not use in the same time as avatar
+
+# The following are DEPRECATED.
+gatracker              = "XYZ" # use googleAnalytics instead
+initials               = "ad"  # displayed on single post page; deprecated in v0.3.0.
+
