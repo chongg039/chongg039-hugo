@@ -1,1 +1,6 @@
-
+[submodule "themes/paperback"]
+	path = themes/paperback
+	url = https://github.com/damiencaselli/paperback.git
+[submodule "themes/cocoa"]
+	path = themes/cocoa
+	url = https://github.com/nishanths/cocoa-hugo-theme.git
