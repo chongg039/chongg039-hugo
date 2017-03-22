@@ -4,7 +4,7 @@ draft = false
 title = "搭建 Linux 开发环境"
 Tags = ["ubuntu","nodejs"]
 +++
-![ubuntu下配置nodejs工作流](http://7xswbj.com1.z0.glb.clouddn.com/ubuntunodejs.jpg)
+![ubuntu下配置nodejs工作流](https://c1.staticflickr.com/3/2824/33457501351_1bb021123b.jpg)
 
 >先说说我为啥要干这事儿。
 前段时间迪哥要我们用node搞一个最小化 MEAN 产品，没想到只是在搭建开发环境上windows就各种不兼容，出现了许多奇奇怪怪的bug，再加上国内关于node的开发教程确实相对比较少，没有好的学习资源。搞了virtualbox虚拟机，但是内存和性能又开始捉急。干脆换到ubuntu，一步到位，特此记录下过程。
@@ -34,12 +34,12 @@ Tags = ["ubuntu","nodejs"]
 
 
 ####科学上网
-- 工作室拿shadowsocks爬墙，还是很方便，只是换了岛国的代理后只有后台架梯子chrome还上不了墙，还得搞个switchomega。有篇@[爱探路](https://aitanlu.com/ubuntu-shadowsocks-ke-hu-duan-pei-zhi.html)博客介绍的比较详细直接转过来供参考
+- 工作室拿shadowsocks爬墙，还是很方便，只是换了岛国的代理后只有后台架梯子chrome还上不了墙，还得搞个switchomega。有篇@[爱探路](http://aitanlu.com/ubuntu-shadowsocks-ke-hu-duan-pei-zhi.html)博客介绍的比较详细直接转过来供参考
 - 据说小飞机的账号网上很好找，没有的话用lantern也不错，官网上有linux版本提供deb包下载
 
 ####安装nodejs
 - apt-get 支持安装nodejs命令，不过版本过低，还不能升级，据说是linux官方源不再更新了，然而有的框架和命令还必须要新版本的才能执行。apt-get安装的版本还不支持node命令，只能用nodejs命令替代（这就非常尴尬了）。因此，墙裂推荐去node官网下载最新的nodejs版本自行安装，麻烦一次受益一生。**推荐使用二进制文件进行安装，比较靠谱，安装过程也可以顺便熟悉一下linux命令**
-- linux中国开源社区有[一篇文章](https://linux.cn/article-5766-1.html)做了比较详细的介绍，当然你需要去[nodejs官网](https://nodejs.org/en/)看当前最新的稳定版本是哪个然后下载对应的的二进制源码
+- linux中国开源社区有[一篇文章](http://linux.cn/article-5766-1.html)做了比较详细的介绍，当然你需要去[nodejs官网](http://nodejs.org/en/)看当前最新的稳定版本是哪个然后下载对应的的二进制源码
 - 安装完nodejs后自带了npm包，不过版本比较低，通过`sudo npm update npm -g`升级到最新版本。没事可以再`update`一下
 - 注意环境配置，如g++和python2.7.x（检查系统内自带的python版本）
 
@@ -49,13 +49,13 @@ Tags = ["ubuntu","nodejs"]
 顺手把Ruby装了算了`sudo apt-get install ruby`以后需要啥提示的时候在装就行了
 然后`sudo npm install -g yo grunt-cli bower`，`gulp`有兴趣装了也行
 - 基本配置完了，顺顺当当，总归不会出现windows命令行下各种不能操作的毛病
-（安装时间有点长就顺手装了个命令行版的[网易云音乐](https://github.com/darknessomi/musicbox)，说实话比想象中好用多了。就是我这里登陆是GG的，有时间再找找问题||-_-）
+（安装时间有点长就顺手装了个命令行版的[网易云音乐](http://github.com/darknessomi/musicbox)，说实话比想象中好用多了。就是我这里登陆是GG的，有时间再找找问题||-_-）
 
 ####安装git
 - 推荐@[LittleQ](http://sjq597.github.io/2015/10/25/Ubuntu-14-04-%E5%AE%89%E8%A3%85git/)的这篇文章，比较清晰可靠，同时给配置了SSH
 
 ####配置写作环境
-- 去[sublimetext官网](https://www.sublimetext.com/)下载对应的deb包安装。插件我就不介绍了，一搜一大堆
+- 去[sublimetext官网](http://www.sublimetext.com/)下载对应的deb包安装。插件我就不介绍了，一搜一大堆
 - markdown编辑器推荐[haroopad](http://pad.haroopress.com/user.html)，这是我目前在使用的编辑器，功能比较齐全，已经基本可以满足需要
 
 ####配置数据库
@@ -72,7 +72,7 @@ Tags = ["ubuntu","nodejs"]
 #### 还有一些乱七八糟的东西
 - 护眼，没有防蓝光眼镜的话（有的话尽量也搞一个）装一个`f.lux`，不过这里用的是`redshift`，据说这个要好一点。参考[图灵社区](http://www.ituring.com.cn/article/211486)的一篇文章进行安装
 - 截图，键盘上的Print Screen就很方便，会弹出对话框提醒你保存。放一张网易云音乐的照片
-![cloudNet](http://7xswbj.com1.z0.glb.clouddn.com/cloudNet.png)
+![cloudNet](https://c1.staticflickr.com/3/2916/33457490061_8ba9ac7803_b.jpg)
 - 邮件系统，还是用Thunderbird，好用原生而且方便。系统自带不用安装，配置自己找教程（偷个懒）
 - dropbox，这个没装好，有时间再来更新
 
@@ -84,3 +84,4 @@ Tags = ["ubuntu","nodejs"]
 2016.9.10	更换Remarkable作为MD编辑器
 2016.9.26	转移工作流至阿里云服务器
 2016.9.30	配置工作流到docker
+
