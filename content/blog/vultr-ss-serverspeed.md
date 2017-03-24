@@ -1,7 +1,7 @@
 +++
 date = "2016-10-03T20:32:20-07:00"
 draft = false
-title = "使用vultr+SS+锐速科学上网"
+title = "使用 vultr + SS + 锐速科学上网"
 Tags = ["server","vultr"]
 +++
 接手工作室后，tesths 便把原来那个已经配置好的ss账号连同服务器一块给销了。平时ss又十分必要，就向他讨要了具体的方法，自己搭了一个。这里也是把方法贴出来。
@@ -9,7 +9,7 @@ Tags = ["server","vultr"]
 ### 配置vultr主机
 V家的主机算得上是性价比较高的一款了，而且有日本和新加坡的线路，相对来说延迟比较稳定。截止我购买的时候是每个新用户有20刀的返利，还是比较划算的。
 #### 在 https://www.vultr.com/ 创建用户
-![ ](http://7xswbj.com1.z0.glb.clouddn.com/vultr-create-account.png  "vultr-create-account")
+![](https://c1.staticflickr.com/1/687/33457501971_fe260f32da_b.jpg)
 
 进来后需要绑定账户。如果没有信用卡的话建议使用PayPal，而且PayPal应该是支持国内的储蓄卡绑定的，比较方便。
 
@@ -18,11 +18,11 @@ V家的主机算得上是性价比较高的一款了，而且有日本和新加�
 在图的右边，这次我注册了一个新账号，但是很不幸的显示返利变少了。。。好吧你要是能找到优惠码的话也许还会有。。。
 
 #### 配置主机
-![ ](http://7xswbj.com1.z0.glb.clouddn.com/vultr-setting-servers.png  "vultr-setting-servers")
+![](https://c1.staticflickr.com/4/3883/32743726394_8cb9dbd881_b.jpg)
 
 这是我的vultr主界面面板，可以看到已经有了两个在运行的服务器。如果开始要新建一个服务器，点击右上方的+号：
 
-![ ](http://7xswbj.com1.z0.glb.clouddn.com/vultr-server.png  "vultr-server")
+![](https://c1.staticflickr.com/4/3796/32743725874_59c0cd1116_b.jpg)
 >这里选择日本的服务器，经过几天的测试发现日本的要比新加坡的线路快不少
 操作系统选择自己熟悉的就好，我选的ubuntu14.04，不建议windows
 如果只是为了搭建番茄的梯子，配置最低配那个就行，一个月总计才5刀，性能完全满足需求
@@ -30,7 +30,7 @@ V家的主机算得上是性价比较高的一款了，而且有日本和新加�
 
 配置完后deploy就会生成相应的vultr服务器了主界面像下面这样：
 
-![ ](http://7xswbj.com1.z0.glb.clouddn.com/vultr-server-info.png  "vultr-server-info")
+![](https://c1.staticflickr.com/3/2896/32743725054_71c68e7697_b.jpg)
 
 显示了ip地址，初始root密码和流量、费用的使用。
 
@@ -111,4 +111,5 @@ reboot
 理论上速度应该会有所提升，而且还比较明显。
 
 最后我只想说，脚本真是个好东西啊。。。
-（默哀一下阿里的月饼员工们）
+（默哀一下阿里月饼事件的员工们）
+

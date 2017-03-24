@@ -6,7 +6,7 @@ title = "life"
 +++
 
 ## 2017-02-27
-![Amazon Go](http://7xswbj.com1.z0.glb.clouddn.com/amazon-go.jpg)
+![Amazon Go](https://c1.staticflickr.com/3/2894/33457477361_e2cff63a27_o.jpg)
 
 今天迪哥回来了，和我们聊了很长时间。
 
@@ -36,7 +36,7 @@ title = "life"
 另外我决定去参加四月的 Gopher China 大会，这也是一次非常好的机会，有想同行的同学可以联系我。
 
 ## 2017-3-17
-![作曲家 --李荣浩](http://7xswbj.com1.z0.glb.clouddn.com/daji.jpg)
+![作曲家 --李荣浩](https://c1.staticflickr.com/1/660/33457492221_5e8a37d01d_b.jpg)
 
 美女来成都旅游邀我作陪，我肯定是欣然赴约的。
 

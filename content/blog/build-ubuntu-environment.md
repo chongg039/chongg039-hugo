@@ -4,7 +4,6 @@ draft = false
 title = "搭建 Linux 开发环境"
 Tags = ["ubuntu","nodejs"]
 +++
-![ubuntu下配置nodejs工作流](http://7xswbj.com1.z0.glb.clouddn.com/ubuntunodejs.jpg)
 
 >先说说我为啥要干这事儿。
 前段时间迪哥要我们用node搞一个最小化 MEAN 产品，没想到只是在搭建开发环境上windows就各种不兼容，出现了许多奇奇怪怪的bug，再加上国内关于node的开发教程确实相对比较少，没有好的学习资源。搞了virtualbox虚拟机，但是内存和性能又开始捉急。干脆换到ubuntu，一步到位，特此记录下过程。
@@ -72,7 +71,7 @@ Tags = ["ubuntu","nodejs"]
 #### 还有一些乱七八糟的东西
 - 护眼，没有防蓝光眼镜的话（有的话尽量也搞一个）装一个`f.lux`，不过这里用的是`redshift`，据说这个要好一点。参考[图灵社区](http://www.ituring.com.cn/article/211486)的一篇文章进行安装
 - 截图，键盘上的Print Screen就很方便，会弹出对话框提醒你保存。放一张网易云音乐的照片
-![cloudNet](http://7xswbj.com1.z0.glb.clouddn.com/cloudNet.png)
+![cloudNet](https://c1.staticflickr.com/3/2916/33457490061_8ba9ac7803_b.jpg)
 - 邮件系统，还是用Thunderbird，好用原生而且方便。系统自带不用安装，配置自己找教程（偷个懒）
 - dropbox，这个没装好，有时间再来更新
 
@@ -84,3 +83,4 @@ Tags = ["ubuntu","nodejs"]
 2016.9.10	更换Remarkable作为MD编辑器
 2016.9.26	转移工作流至阿里云服务器
 2016.9.30	配置工作流到docker
+

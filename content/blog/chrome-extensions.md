@@ -3,7 +3,7 @@ date = "2016-05-21T15:45:01-07:00"
 draft = false
 title = "分享一些自用chrome插件"
 +++
-![分享一些自用的chrome插件](http://7xswbj.com1.z0.glb.clouddn.com/Chrome1111.jpg  "chrome")
+![分享一些自用的chrome插件](https://c1.staticflickr.com/1/738/33457475271_8f1bb7c525_b.jpg)
 
 >- feedly:关注内容在https://github.com/foru17/front-end-collect这里可以找几个
 - switchyomega：科学上网，配合ss使用
@@ -19,3 +19,4 @@ title = "分享一些自用chrome插件"
 - 划词翻译
 - Momentum：chrome打开新标签页有背景，这个比较大,建议不使用
 - jsonview：查看网页json
+

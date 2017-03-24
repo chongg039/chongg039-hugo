@@ -17,9 +17,8 @@ coldriver，nodejs玩家，最近转型Go
 
 对我或者本站有意见和建议也可以通过下方的邮箱和我联系 ，希望你生活愉快！
 
-![微信](http://7xswbj.com1.z0.glb.clouddn.com/weixin.png?imageView2/2/w/200)
-![Twitter](http://7xswbj.com1.z0.glb.clouddn.com/twitter.jpg?imageView2/2/w/200)
-<br />
+![Weixin](https://c1.staticflickr.com/3/2835/32743727144_f7e9f7d90b_q.jpg)
+![Twitter](https://c1.staticflickr.com/3/2933/33457499501_079368e12f_q.jpg)
 
 [这里是我的简历](resume/)
 
