@@ -22,21 +22,21 @@ Tags = ["nodejs","crawler"]
 
 为了完成模拟登陆这一目的，先尝试获取登录主界面`http://portal.uestc.edu.cn/`的内容。分析一波登陆过程中的 HTTP 行为：
 
-![HTTPAnalysis](https://c1.staticflickr.com/1/664/33546049616_08658fcd69_b.jpg)
+![HTTPAnalysis](http://ohroncry6.bkt.clouddn.com/HTTPAnalysis.png)
 
 可以发现在正文`portal.uestc.edu.cn/`前有两个页面，分别打开看一看：
 
 `login?service=http%3A%2F%2Fportal.uestc.edu.cn%2F`页面：
 
-![](https://c1.staticflickr.com/4/3816/32743728994_a16798c664_b.jpg)
+![](http://ohroncry6.bkt.clouddn.com/3021.png)
 
 `?ticket=ST-199833-BbDvk6q57cmNFtJkBJNL1481032281383-zATy-cas`页面：
 
-![](https://c1.staticflickr.com/4/3671/32743729674_a3846b6f00_b.jpg)
+![](http://ohroncry6.bkt.clouddn.com/3022.png)
 
 最终页面：
 
-![](https://c1.staticflickr.com/4/3752/32743728154_d255046c53_b.jpg)
+![](http://ohroncry6.bkt.clouddn.com/200.png)
 
 理论上是获取到最终页面的`JSESSIONID`，这是服务器用来唯一标识用户信息的`session`。带着这个 cookie 去访问其他相关页面，就能获取到对应数据。
 
@@ -256,7 +256,7 @@ cookie 有：`JSESSIONID, semester.id, iPlanetDirectoryPro` 。可以看出表�
 
 凭经验来看`ids`肯定是在前文的响应 body 里服务器已经返回的数据。果然，在请求这个地址之前已经请求了一个地址：`http://eams.uestc.edu.cn/eams/courseTableForStd.action?_=1481077999393`
 
-![ids](https://c1.staticflickr.com/4/3907/32772354773_5a8581b019_z.jpg)
+![ids](http://ohroncry6.bkt.clouddn.com/ids.png)
 
 解析这个 Response，就可以得到对应的ids值。
 
@@ -270,19 +270,19 @@ cookie 有：`JSESSIONID, semester.id, iPlanetDirectoryPro` 。可以看出表�
 
 主界面：
 
-![](https://c1.staticflickr.com/1/567/32772355483_07c82b1c94_b.jpg)
+![](http://ohroncry6.bkt.clouddn.com/main.png)
 
 课程表：
 
-![](https://c1.staticflickr.com/4/3844/33546051106_05d777eeac_b.jpg)
+![](http://ohroncry6.bkt.clouddn.com/courses.png)
 
 考试安排：
 
-![](https://c1.staticflickr.com/4/3684/33546052326_839c5dfb38_b.jpg)
+![](http://ohroncry6.bkt.clouddn.com/eams.png)
 
 成绩垃圾就打上码了：
 
-![](https://c1.staticflickr.com/4/3845/32772353723_7322eb585e_z.jpg)
+![](http://ohroncry6.bkt.clouddn.com/gradesAll.png)
 
 虽然效果粗糙了一些，但就结果而言还是好的，达到了目的。
 
@@ -302,4 +302,3 @@ cookie 有：`JSESSIONID, semester.id, iPlanetDirectoryPro` 。可以看出表�
 整个工程放在了我的  [Github](https://github.com/chongg039/uestcLogin) 上，写的烂了点，不过踩坑时的思想还是可以借鉴的 ，觉得有用就给个 Star 吧。
 
 最后祝大家考试月顺利～
-
