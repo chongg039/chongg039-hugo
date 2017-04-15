@@ -12,7 +12,7 @@ pygmentsuseclasses  = true
 disqusshortname     = "coldriver" # Comment out to disable Disqus.
 pluralizelisttitles = false
 googleAnalytics     = "UA-123-45"
-Paginate            = 10
+Paginate 	　　　　= 10
 
 [permalinks]
 fixed = ":title/"
